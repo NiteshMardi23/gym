@@ -1,0 +1,73 @@
+
+
+### Introduction
+
+This documentation provides an overview of the "Waves Gym" website codebase, including its HTML structure, CSS styling, and JavaScript interactions. The website is designed to showcase a fitness center's offerings and features a dynamic slider, interactive navigation, and engaging content sections.
+
+### Table of Contents
+
+1. [HTML Structure](#html-structure)
+2. [CSS Styling](#css-styling)
+3. [JavaScript Interactions](#javascript-interactions)
+
+---
+
+### HTML Structure <a name="html-structure"></a>
+
+The HTML structure of the "Waves Gym" website is organized into different sections for navigation, main content, testimonials, and footer. Key components include:
+
+- Navigation (`#nav`): Displays the gym's logo and navigation links.
+- Video Background (`<video>`): A background video showcasing gym activities.
+- Main Content (`#main`): Contains various content sections and elements.
+- Content Sections (`#page1`, `#page2`, `#page3`, `#page4`): Divisions for different content.
+- Testimonials (`#page3`): User testimonials with navigation buttons.
+- Footer (`#footer`): Contact information and additional links.
+
+---
+
+### CSS Styling <a name="css-styling"></a>
+
+The website's CSS styling is responsible for the visual presentation and animations. Notable styling includes:
+
+- Custom Cursor (`#cursor`, `#cursor-blr`): Stylish cursor effects that follow mouse movements.
+- Navigation Styling (`#nav`, `h4`): Styling for navigation links with hover effects.
+- Background Styling (`#main`, `#about-us`, `.slider-container`): Background color and image styling for various sections.
+- Card Styling (`#cards-container`, `.card`, `.overlay`): Styling for feature cards with hover effects.
+- Animation Effects (`@keyframes`, `gsap`): Animations for scrolling, fading, and sliding effects.
+- Responsive Design (`@media`): Adjustments for different screen sizes.
+
+---
+
+### JavaScript Interactions <a name="javascript-interactions"></a>
+
+JavaScript is used to enhance user interactions and create dynamic elements. Key JavaScript functionalities include:
+
+- Custom Cursor Interaction: The cursor follows mouse movements and changes appearance on hover.
+- Navigation Interaction: Navigation links trigger cursor effects on hover.
+- Scroll Trigger Animations (`gsap`): Animations triggered by scrolling using the GreenSock Animation Platform (GSAP) library.
+- Testimonials Slider: Auto-changing user testimonials with navigation buttons.
+- Dynamic Slider: A dynamic image slider with titles and descriptions.
+
+---
+
+### Important Topics
+
+1. **Custom Cursor Interaction**: JavaScript is used to create a custom cursor that follows mouse movements and changes appearance on interaction.
+
+2. **Scroll Trigger Animations**: GSAP's ScrollTrigger is utilized to animate elements as they enter or leave the viewport during scrolling.
+
+3. **Dynamic Slider**: The website features a dynamic image slider with changing images, titles, and descriptions.
+
+4. **Navigation Styling**: Navigation links have custom hover effects that interact with the cursor.
+
+5. **Responsive Design**: The website layout adapts to different screen sizes using media queries.
+
+---
+
+### Conclusion
+
+The "Waves Gym" website showcases modern web development techniques, including custom cursor interactions, scroll-triggered animations, and dynamic sliders. The codebase combines HTML, CSS, and JavaScript to create an engaging and visually appealing user experience for a fitness center's online presence.
+
+---
+
+This documentation provides an overview of the "Waves Gym" website's key components, styling, interactions, and important topics, allowing readers to understand the project's structure and functionalities.
